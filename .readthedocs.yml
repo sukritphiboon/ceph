@@ -19,3 +19,7 @@ python:
 sphinx:
   builder: dirhtml
   configuration: doc/conf.py
+# Build PDF & ePub
+formats:
+  - epub
+  - pdf
